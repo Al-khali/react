@@ -4,7 +4,7 @@ import { Layout } from '../layout'
 const Resume = () => {
     return (
         <Layout>
-        <div className="flex flex-col gap-8 items-center justify-center py-12">
+            <div className="flex flex-col gap-8 items-center justify-center py-12">
                     <div className="shadow p-4 bg-white">
                         <div className="text-left">
                             <h3 className="mb-2 text-gray-700">Aourik</h3>
@@ -20,12 +20,12 @@ const Resume = () => {
                             <p className="text-grey-600 text-sm">
                                 •2016 bac pro SEN au Lycée Newton à clichy(92110)
                                 <br/>
-                                •2016-2018 Licence MPCI a l'UVSQ à versaille  
+                                •2016-2018 Licence MPCI a l'UVSQ à versaille
                                 {/* <br />
                                 •certification :
-                                    freecodecamp hmtl,css,js ;
+                                    freecodecamp hmtl,css,js, react ;
                                     linkedin:
-                                        devloppeur javascript, react ,full-stack */}
+                                        devloppeur javascript, python, java,  react, devloppeur full-stack, devloppeur android  */}
                             </p>
                         </div>
                     </div>
@@ -44,11 +44,8 @@ const Resume = () => {
                                 <br/>
                                 •database : mongodb, prostgresgl
                             </p>
-                            
-
                         </div>
                     </div>
-
 
                 <div className="shadow p-4 bg-white">
                         <div className="text-left">
@@ -60,7 +57,6 @@ const Resume = () => {
                             </p>
                         </div>
                     </div>
-
                 <div className="shadow p-4 bg-white">
                         <div className="text-left">
                             <h3 className="mb-2 text-gray-700">Centre d'intérêt</h3>
@@ -77,9 +73,9 @@ const Resume = () => {
                                 <br/>
                                 •jap-animation
                             </p>
-                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
         </Layout>
     )
 }
